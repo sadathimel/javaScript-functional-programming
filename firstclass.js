@@ -23,7 +23,10 @@ var obj = {
 console.log(obj)
 console.log(obj.sum(7,9))
 
-
+// 4.We can Create Function as Need
+setTimeout(function () {
+  console.log('I have Created....')
+},1000)
 
 
 
